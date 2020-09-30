@@ -30,7 +30,7 @@ Since we assume that the branch has to be rebased anyway, there is no point runn
 
 
 ## Deployment
-Build and Deploy the provided Dockerfile, you can also use the provided docker-image You need to configure at least 3 environment variables:
+Build and Deploy the provided Dockerfile, you can also use the [provided docker-image](https://hub.docker.com/r/latidohealthtech/gitlab-merge-train) You need to configure at least 3 environment variables:
 ```
   MERGE_TRAIN_PORT: "80"
   GITLAB_TOKEN: "XXXXXXXX"
