@@ -1,9 +1,14 @@
 # Gitlab Merge Train
 
-... a simple way to automatically queue, rebase and merge for your development lifecycle.
+... a simple way to automatically queue, rebase and merge for your development cycle.
 
 
 ![Gitlab Merge Train Anim](img/anim.gif)
+
+
+## Screenshot
+![Gitlab Merge Train Example](img/scr2.jpg)
+
 
 ## How does it work?
 
@@ -51,6 +56,3 @@ When using Gitlab with pipelines, you will often find yourself waiting for pipel
 During this time the target branch will often change, requiring someone to manage merges into the target branches (eg `develop`, `staging`, `master`), meaning waiting for the pipeline to finish, rebasing it, waiting for the pipeline to finish again and finally merge it.
 
 This process is cumbersome and can be easily automated with GMRT.
-
-## Screenshot
-![Gitlab Merge Train Example](img/scr2.jpg)
