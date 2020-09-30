@@ -1,6 +1,6 @@
 # Gitlab Merge Train
 
-... a simple way to automatically que, rebase and merge for your development lifecycle.
+... a simple way to automatically queue, rebase and merge for your development lifecycle.
 
 ## How does it work?
 
