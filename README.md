@@ -2,6 +2,9 @@
 
 ... a simple way to automatically queue, rebase and merge for your development lifecycle.
 
+
+![Gitlab Merge Train Anim](img/anim.gif)
+
 ## How does it work?
 
 1. The service provides a simple queue for merge requests
@@ -50,5 +53,4 @@ During this time the target branch will often change, requiring someone to manag
 This process is cumbersome and can be easily automated with GMRT.
 
 ## Screenshot
-Inline-style: 
 ![Gitlab Merge Train Example](img/scr2.jpg)
