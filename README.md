@@ -4,13 +4,13 @@
 
 ## How does it work?
 
-1. The service provides a simple que for merge requests
-2. Each target branch has its own que (`feature_branch_x` -> `staging`, `staging` is the target branch)
-3. Add a merge request to the que by adding the `merge_train` label in Gitlab
-4. GMRT will add the merge request to the que and cancel all pending or running pipelines (see below why)
-5. GMRT will then wait for any merge-request to finish (or fail) that is in front of the added one in the que
+1. The service provides a simple queue for merge requests
+2. Each target branch has its own queue (`feature_branch_x` -> `staging`, `staging` is the target branch)
+3. Add a merge request to the queue by adding the `merge_train` label in Gitlab
+4. GMRT will add the merge request to the queue and cancel all pending or running pipelines (see below why)
+5. GMRT will then wait for any merge-request to finish (or fail) that is in front of the added one in the queue
 6. GMRT will finally **rebase** and activate **merge when pipeline succeeds**
-7. Wait for the result (success/fail/timeout) and process next merge request in Que 
+7. Wait for the result (success/fail/timeout) and process next merge request in queue 
 
 This will cause an automatic merge when the pipeline succeeds.
 
